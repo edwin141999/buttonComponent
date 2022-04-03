@@ -1,0 +1,148 @@
+button {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    padding: 10px 15px;
+    margin: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.default {
+    color: #000000;
+    border: none;
+}
+
+.default:hover {
+    background-color: #aeaeae;
+}
+
+.default:focus {
+    background-color: #aeaeae;
+}
+
+.outline {
+    color: #0000ff;
+    background-color: white;
+    border: 2px solid #0000ff;
+}
+
+.outline:hover {
+    background-color: #eaefff;
+}
+
+.outline:focus {
+    background-color: #eaefff;
+}
+
+.text {
+    color: #0000ff;
+    background-color: #ffffff;
+    border: none;
+}
+
+.text:hover {
+    background-color: #eaefff;
+}
+
+.text:focus {
+    background-color: #eaefff;
+}
+
+.disableShadow {
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+}
+
+.disabled {
+    background-color: #e0e0e0;
+    border: none;
+    color: #b7b7b7;
+}
+
+.disabledtxt {
+    color: #b7b7b7;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    background-color: #0000ff;
+    border: 2px solid #0000ff;
+    color: #ffffff;
+    display: flex;
+    padding: 8px 7px !important;
+}
+
+.div {
+    display: flex;
+}
+
+.material-icons {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sm {
+    background-color: #0000ff;
+    border: 2px solid #0000ff;
+    color: #ffffff;
+    padding: 6px !important;
+}
+
+.md {
+    background-color: #0000ff;
+    border: 2px solid #0000ff;
+    color: #ffffff;
+    padding: 9px !important;
+}
+
+.lg {
+    background-color: #0000ff;
+    border: 2px solid #0000ff;
+    color: #ffffff;
+    padding: 12px !important;
+}
+
+.primary {
+    background-color: #2962ff;
+    border: none;
+    color: #ffffff;
+}
+
+.primary:hover {
+    background-color: #0039cb;
+}
+
+.primary:focus {
+    background-color: #0039cb;
+}
+
+.secondary {
+    background-color: #455a64;
+    border: none;
+    color: #ffffff;
+}
+
+.secondary:hover {
+    background-color: #1c313a;
+}
+
+.secondary:focus {
+    background-color: #1c313a;
+}
+
+.danger {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+}
+
+.danger:hover {
+    background-color: #9a0007;
+}
+
+.danger:focus {
+    background-color: #9a0007;
+}

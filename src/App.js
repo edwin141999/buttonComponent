@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import DefaultButton from './components/DefaultButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h2>Buttons</h2>
+      <DefaultButton />
+      <footer>
+        <p>Icons: https://google.github.io/material-design-icons/ </p>
+        <p>Created by: <a href="https://devchallenges.io/portfolio/edwin141999">edwin141999</a> - devChallenges.io</p>
+      </footer>
     </div>
   );
 }
