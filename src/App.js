@@ -7,7 +7,7 @@ function App() {
       <h2>Buttons</h2>
       <DefaultButton />
       <footer>
-        <p>Icons: https://google.github.io/material-design-icons/ </p>
+        <p>Icons: <a href="https://google.github.io/material-design-icons/">https://google.github.io/material-design-icons/</a> </p>
         <p>Created by: <a href="https://devchallenges.io/portfolio/edwin141999">edwin141999</a> - devChallenges.io</p>
       </footer>
     </div>
